@@ -1,0 +1,31 @@
+{
+  "name": "temv-api",
+  "version": "1.0.0",
+  "description": "Backend in Typescript Node ExpressJs with MySQL database",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node -r ts-node/register server.ts",
+    "dev": "nodemon server.ts"
+  },
+  "author": "avg1897",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.0",
+    "@types/strong-error-handler": "^2.3.0",
+    "nodemon": "^3.1.2",
+    "ts-node": "^7.0.1"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.16.4",
+    "mysql2": "^3.9.9",
+    "sequelize": "^5.22.5",
+    "sequelize-typescript": "^1.0.0-alpha.9",
+    "strong-error-handler": "^3.5.0",
+    "typescript": "^5.4.5"
+  }
+}
